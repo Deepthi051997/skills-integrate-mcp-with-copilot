@@ -1,3 +1,22 @@
+/* Toolbar styles */
+#activity-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+#activity-toolbar label {
+  font-weight: 500;
+  margin-right: 4px;
+}
+#activity-toolbar select,
+#activity-toolbar input[type="text"] {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
 * {
   box-sizing: border-box;
   margin: 0;
